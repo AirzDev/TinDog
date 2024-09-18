@@ -1,0 +1,40 @@
+.gradient-background {
+  background: linear-gradient(300deg, #7A1CAC,  #1E2A5E,  #a97cc3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.aliceblue {
+  color: #f0f8ff !important;
+}
+
+.blue {
+  color: #00ffae87;
+}
+
+.W1 {
+  color: #e7f1f9;
+}
